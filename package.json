@@ -1,0 +1,20 @@
+{
+  "name": "nestjs_app",
+  "version": "1.0.0",
+  "description": "my First NestJs App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "NestJs",
+    "NodeJs",
+    "TypeScript"
+  ],
+  "author": "Manak Prajapati",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^8.0.34",
+    "ts-node": "^3.3.0"
+  }
+}
