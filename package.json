@@ -1,22 +1,17 @@
 {
-  "name": "nestjs_app",
+  "name": "FaceExpressionRecognition",
   "version": "1.0.0",
-  "description": "my First NestJs App",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index"
+    "start":"http-server .",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "NestJs",
-    "NodeJs",
-    "TypeScript"
-  ],
-  "author": "Manak Prajapati",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
-  "dependencies": {
-    "@types/node": "^8.0.34",
-    "ts-node": "^3.3.0",
-    "typescript": "^2.5.3"
+  "devDependencies": {
+    "face-api.js": "^0.22.2",
+    "http-server": "^0.12.3"
   }
 }
